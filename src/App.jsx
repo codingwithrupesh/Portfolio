@@ -5,12 +5,10 @@ import Navbar from "./components/navbar/Navbar";
 import Banner from "./components/banner/Banner";
 import Features from "./components/features/Features";
 import Projects from "./components/projects/Project";
-import Resume from "./components/resume/Resume";
 import Contact from "./components/contact/Contact";
 import Ourteam from "./components/ourteam/Ourteam";
 import Footer from "./components/footer/Footer";
 import FooterBottom from "./components/footer/Bottomfootter";
-// import OurTeam from "./components/ourteam/OurTeam";
 function App() {
   const [count, setCount] = useState(0);
 
@@ -21,9 +19,7 @@ function App() {
         <Banner />
         <Features />
         <Projects />
-        {/* <Resume /> */}
         <Ourteam />
-        {/* <OurTeam /> */}
         <Contact />
         <Footer />
         <FooterBottom />
