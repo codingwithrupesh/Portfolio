@@ -10,8 +10,6 @@ import Ourteam from "./components/ourteam/Ourteam";
 import Footer from "./components/footer/Footer";
 import FooterBottom from "./components/footer/Bottomfootter";
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
     <div className="w-full h-auto bg-bodyColor text-lightText px-3 sm:px-5">
       <Navbar />
